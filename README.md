@@ -1,8 +1,6 @@
 # ProjektProgramingBasic
 
 
-
-
 ### Beschreibung
 
 Dieses Skript wandelt ein Bild in ASCII-Kunst um und zeigt es in der Konsole an.
@@ -15,15 +13,13 @@ Um das Skript auszuführen, müssen Sie Node.js installiert haben. Verwenden Sie
 node skript.js <Bildpfad> <Zellengröße>
 ```
 
-< Bildpfad >: Der Pfad zur Bilddatei, die umgewandelt werden soll.
-
-< Zellengröße > (optional): Die Größe jeder Zelle in Pixeln. Standardmäßig ist dies 10.
-
 ### Abhängigkeiten
 Das Skript verwendet die folgenden Node.js-Pakete:
+´Jimp´ 
+Für die Bildmanipulation und Pixelzugriff.
 
-Jimp: Für die Bildmanipulation und Pixelzugriff.
 Um die benötigten Pakete zu installieren, führen Sie folgenden Befehl aus:
+
 
 ```bash
 npm install jimp
